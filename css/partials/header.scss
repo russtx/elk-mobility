@@ -1,0 +1,52 @@
+/*======================= Header ============================================ */
+.navbar{
+  min-height: 9.5vh;
+  margin-bottom: 0;
+  box-shadow: $dark-grey 0px 5px 9px;
+  border-radius: 0;
+}
+.navbar-brand>img {
+  display: block;
+  margin: -10px auto 0 auto;
+  opacity: .5;
+}
+.navbar-default {
+  .navbar-nav{
+    margin-top: 10px;
+    li{
+      a{
+        text-transform: uppercase;
+        color:$blue;
+        padding: 10px 7px;
+      }
+    }
+  }
+}
+
+.headerSocials{
+  display: block;
+  position: relative;
+  left:30px;
+}
+.blueFacebook{
+  background: url(./images/facebook-sprite-20.png) no-repeat;
+    background-position-y: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 18px 0 0 20px;
+    &:hover{
+      background-position-y: -21px;
+    }
+}
+.blueLinkedIn{
+  background: url(./images/linkedin-sprite-20.png) no-repeat;
+    background-position-y: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 18px 0 0 10px;
+    &:hover{
+      background-position-y: -21px;
+    }
+}

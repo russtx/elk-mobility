@@ -1,0 +1,40 @@
+/*================Footer =============*/
+.footerLogo{
+ .navbar-brand{
+   float: none;
+ }
+ img{
+   display: block;
+   margin: 0 auto;
+ }
+
+}
+.footerMenu{
+ ul{
+   list-style: none;
+   columns:2;
+   padding: 0;
+   margin-top: 20px;
+   li{
+     a{
+       color:$purple;
+     }
+   }
+ }
+}
+.footerSocials{
+  position: relative;
+  text-align: center;
+  .blueFacebook{
+    margin: 0 0 0 0;
+  }
+}
+p.copyright, p.childress{
+  text-align: center;
+  a{
+    color:$purple;
+    &hover{
+      font-weight: 700;
+    }
+  }
+}

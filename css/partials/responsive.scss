@@ -1,0 +1,102 @@
+/* responsive settings */
+$screen-xl-min: 1600px;
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Sass Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  .navbar-collapse{
+    padding: 0 0 0 0;
+  }
+  .headerSocials{
+    left:0;
+  }
+  a#scrollDown.downButton{
+    display: block;
+  }
+  #homeTop{
+    height: 90.5vh;
+  }
+  #homeContent{
+    height:100vh;
+  }
+  .whiteBackground{
+    padding-bottom: 100px;
+  }
+  .homeBoxes{
+    padding: 30px 10px;
+    margin:0;
+    h2{
+      font-size: 20px;
+    }
+  }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+    margin-top: -70px;
+  }
+  .carousel-inner {
+    padding: 0 80px;
+  }
+  .authorImage {
+    img{
+      margin: 0px 0 0 46px;
+    }
+  }
+  #contactSection{
+    h4:nth-child(1){
+      margin-top:10px
+    }
+  }
+  .redFacebook{
+    margin: 40px 0 0 62px;
+  }
+  .redLinkedIn{
+    margin: 40px 0 0 20px;
+  }
+  footer{
+    height:100px;
+    margin-top:20px;
+    box-shadow: 0 -5px 5px -5px #333
+  }
+  .footerMenu{
+    margin-top: 20px;
+    height: 62px;
+    ul{
+      column-count: unset;
+      li{
+        float:left;
+        margin:0 0 0 12px;
+      }
+    }
+  }
+  .footerSocials{
+    .blueFacebook{
+      margin-top: 38px;
+    }
+    .blueLinkedIn{
+      margin-top: 38px;
+    }
+  }
+}
+/* Medium devices (desktops, 992px and up) =====================================================================================================*/
+@media (min-width: $screen-md-min) {
+  .largeLogo {
+    img{
+      margin:30px auto;
+    }
+  }
+  #video{
+    background-position-x: 0;
+  }
+}
+/* Large devices (large desktops, 1200px and up)============================================================================================ */
+@media (min-width: $screen-lg-min) {
+
+}
+/* Large devices (large desktops, 1600px and up)============================================================================================ */
+@media (min-width: $screen-xl-min) {
+
+}

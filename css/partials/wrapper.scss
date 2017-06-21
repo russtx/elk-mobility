@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+
+}
+body{
+  background-color: white;
+  font-family: 'Assistant', sans-serif;
+  width:100%;
+  color:$purple;
+}
+#main-container{
+  overflow: auto;
+}
