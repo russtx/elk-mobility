@@ -11,12 +11,12 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 768;
 }
 //Add menu support and register main menu
-add_action( 'init', 'bikeworks_register_menus' );
-function bikeworks_register_menus(){
+add_action( 'init', 'footer_register_menus' );
+function footer_register_menus(){
   	register_nav_menus(
   		array(
   		  'main_menu' => 'Main Menu',
-				'footer-nav-1' => 'Footer Bike Works Menu'
+				'footer-nav-1' => 'Footer Menu'
   		)
   	);
 }

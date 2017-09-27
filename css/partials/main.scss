@@ -2,7 +2,7 @@
 #homeTop{
   position: relative;
   height: 100%;
-  background: url(./images/homeTop-background.png) no-repeat;
+  background: url(./images/homeTop-background-2.png) no-repeat;
   background-size: cover;
 }
 .largeLogo{
@@ -10,7 +10,14 @@
     display: block;
     margin: 0 auto;
   }
+  h1{
+    text-align: center;
+    color: $red;
+    font-weight: 900;
+    font-size: 40px;
+  }
 }
+
 .homeBoxes{
   display: inline-block;
   background: #fff;
@@ -82,7 +89,7 @@ a#scrollDown.downButton{
 #homeContent{
   position: relative;
   height: 100%;
-  background: url(./images/homeContent-background.png) no-repeat;
+  background: url(./images/homeContent-background-2.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -153,16 +160,16 @@ p.authorProfession{
 }
 #video{
   position: relative;
-  min-height: 1350px;
+  //min-height: 1350px;
   height: 100%;
-  background: url(./images/video-background.png) no-repeat;
+  background: url(./images/video-background-2.png) no-repeat;
   background-size: cover;
-  background-position-x: -300px;
-  background-position-y: -100px;
+  //background-position-x: -300px;
+  //background-position-y: -100px;
   background-attachment: fixed;
   .whiteBackground{
-    position: relative;
-    top:440px;
+    //position: relative;
+    //top:440px;
   }
 }
 .video-container{
@@ -184,6 +191,13 @@ p.authorProfession{
     font-weight: 600;
   }
 
+}
+#testimonialSection{
+  position: relative;
+  height: 100%;
+  background: url(./images/testimonial-background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .redFacebook{
   background: url(./images/facebook-sprite-30.png) no-repeat;
@@ -208,6 +222,11 @@ p.authorProfession{
     }
 }
 #contactSection{
+  //position: relative;
+  //height: 100%;
+  //background: url(./images/homeContent-background.png) no-repeat;
+  //background-size: cover;
+  //background-attachment: fixed;
   h2{
     color: $red;
     text-align: center;
@@ -278,4 +297,30 @@ p.authorProfession{
     margin:auto;
     background-size:contain;
     background-position: center;
+}
+.mainContent{
+  padding: 30px 20px;
+  min-height: 375px;
+}
+
+.caption{
+  p:nth-child(1){
+    text-align: left;
+    font-size: 30px;
+  }
+  p:nth-child(2){
+    padding: 10px;
+  }
+  p:nth-child(3){
+    text-align: right;
+    font-size: 30px;
+  }
+  .quoteInfo{
+    p{
+      text-align: left;
+      padding: 0;
+      font-size: 15px
+      ;
+    }
+  }
 }

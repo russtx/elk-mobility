@@ -4,7 +4,7 @@
 	<div class="col-xs-12">
 		<?php if(have_posts()) : ?>
 		   <?php while(have_posts()) : the_post(); ?>
-			<div id="post-<?php the_ID(); ?>" <?php post_class('mainContent'); ?>>
+			<div id="post-<?php the_ID(); ?>" <?php post_class('mainContent container'); ?>>
 				<?php the_title('<h1>','</h1>'); ?>
 		 		<?php the_content(); ?>
 			</div>

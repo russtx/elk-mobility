@@ -1,14 +1,31 @@
 {
-  "name": "Basis Theme",
+  "name": "bootstest2",
   "version": "1.0.0",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
     "gulp-less": "^3.0.5",
     "gulp-livereload": "^3.8.1",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
-    "gulp-watch": "^4.3.5"
-  }
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.11",
+    "sass-watch": "^0.1.0"
+  },
+  "description": "Based on [Bootstrap-3-blank-wordpress-theme](https://github.com/sebastienb/Bootstrap-3-blank-wordpress-theme)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russtx/elk-mobility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/russtx/elk-mobility/issues"
+  },
+  "homepage": "https://github.com/russtx/elk-mobility#readme"
 }

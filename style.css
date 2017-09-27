@@ -1,5 +1,5 @@
 /*!
-Theme Name: elk-mobility
+Theme Name: russ-berge
 Author: Russ Berge
 Author URI: http://childressagency.com
 Description: This is a blank bootstrap theme for wordpress based on the Bootstrap Starter Wordpress theme by 3sparks llc. This version adds Gulp and the possibility to recompile Bootstrap css from Sass.
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 body {
-  background-color: white;
+  background-color: #fff;
   font-family: 'Assistant', sans-serif;
   width: 100%;
   color: #3e394f;
@@ -115,10 +115,9 @@ body {
   border-radius: 0;
 }
 
-.navbar-brand > img {
-  display: block;
-  margin: -10px auto 0 auto;
-  opacity: .5;
+.navbar-brand h1 {
+  font-size: 12px;
+  color: #c72c28;
 }
 
 .navbar-default .navbar-nav {
@@ -167,13 +166,20 @@ body {
 #homeTop {
   position: relative;
   height: 100%;
-  background: url(./images/homeTop-background.png) no-repeat;
+  background: url(./images/homeTop-background-2.png) no-repeat;
   background-size: cover;
 }
 
 .largeLogo img {
   display: block;
   margin: 0 auto;
+}
+
+.largeLogo h1 {
+  text-align: center;
+  color: #c72c28;
+  font-weight: 900;
+  font-size: 40px;
 }
 
 .homeBoxes {
@@ -255,7 +261,7 @@ a#scrollDown.downButton {
 #homeContent {
   position: relative;
   height: 100%;
-  background: url(./images/homeContent-background.png) no-repeat;
+  background: url(./images/homeContent-background-2.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -337,18 +343,10 @@ p.authorProfession {
 
 #video {
   position: relative;
-  min-height: 1350px;
   height: 100%;
-  background: url(./images/video-background.png) no-repeat;
+  background: url(./images/video-background-2.png) no-repeat;
   background-size: cover;
-  background-position-x: -300px;
-  background-position-y: -100px;
   background-attachment: fixed;
-}
-
-#video .whiteBackground {
-  position: relative;
-  top: 440px;
 }
 
 .video-container {
@@ -368,6 +366,14 @@ p.authorProfession {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+#testimonialSection {
+  position: relative;
+  height: 100%;
+  background: url(./images/testimonial-background.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .redFacebook {
@@ -479,6 +485,31 @@ p.authorProfession {
   background-position: center;
 }
 
+.mainContent {
+  padding: 30px 20px;
+  min-height: 375px;
+}
+
+.caption p:nth-child(1) {
+  text-align: left;
+  font-size: 30px;
+}
+
+.caption p:nth-child(2) {
+  padding: 10px;
+}
+
+.caption p:nth-child(3) {
+  text-align: right;
+  font-size: 30px;
+}
+
+.caption .quoteInfo p {
+  text-align: left;
+  padding: 0;
+  font-size: 15px;
+}
+
 /*================Footer =============*/
 .footerLogo .navbar-brand {
   float: none;
@@ -539,6 +570,15 @@ p.copyright ahover, p.childress ahover {
     height: 90.5vh;
   }
   #homeContent {
+    height: 100vh;
+  }
+  #testimonialSection {
+    height: 100vh;
+  }
+  #video {
+    height: 100vh;
+  }
+  #contactSection {
     height: 100vh;
   }
   .whiteBackground {

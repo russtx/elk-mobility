@@ -35,7 +35,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="col-xs-2 col-sm-2 headerLogo">
               <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo">
+                <h1 class="headerTitle">RussBerge.Com</h1>
               </a>
             </div>
             <div class="col-xs-4 col-sm-2 col-sm-push-8 ">
