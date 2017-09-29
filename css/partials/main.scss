@@ -319,8 +319,32 @@ p.authorProfession{
     p{
       text-align: left;
       padding: 0;
-      font-size: 15px
-      ;
+      font-size: 15px;
     }
   }
+}
+.blogImage{
+  img{
+    display: block;
+    margin: 20px auto;
+  }
+
+}
+.blogContent{
+  h4{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 0;
+
+  }
+  h2{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 0;
+  }
+}
+.address{
+
+}
+.float{
+  float: left;
+  margin: 0 0 0 12px;
 }

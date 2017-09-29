@@ -13,7 +13,15 @@
               <div class="col-xs-2 redBox">
                 <h3>
                   <?php echo get_the_date('F '); ?><br/>
-                  <?php echo get_the_date(' j'); ?>
+                  <?php echo get_the_date(' j'); ?><br/>
+                  <?php if ( has_post_thumbnail() ) {
+                      the_post_thumbnail();
+                  }
+                  else {
+                      echo '<img src="' . get_bloginfo( 'stylesheet_directory' )
+                          . '/images/thumbnail-default.jpg" />';
+                  }
+                  ?>
                 </h3>
               </div>
               <div class="col-xs-9 col-xs-offset-1 blueBox">

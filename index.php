@@ -4,11 +4,11 @@
 		<div class="container  ourBlog">
 			<h1>OUR BLOG</h1>
 			<?php
-$args = array( 'numberposts' => 3, 'order'=> 'ASC', 'orderby' => 'title' );
+$args = array( 'numberposts' => 3, 'order'=> 'DEC',  );
 $postslist = get_posts( $args );
 foreach ($postslist as $post) :  setup_postdata($post); ?>
 <div class="row">
-		<div class="col-md-3">
+		<div class="col-xs-12 col-md-2 blogImage">
 			<?php
 // Must be inside a loop.
 
@@ -22,8 +22,8 @@ else {
 ?>
 		</div>
 
-		<div class="col-md-9">
-        <h3><?php the_date(); ?></h3>
+		<div class="col-xs-12 col-md-10 blogContent">
+        <h4><?php the_date(); ?></h4
         <br />
         <h2><?php the_title(); ?></h2>
 

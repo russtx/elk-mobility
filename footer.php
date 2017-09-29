@@ -19,7 +19,7 @@
           &copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
         </p>
         <p class="col-sm-6 childress">
-          Created by<a href="#" target="_blank">The Childress Agency</a>
+          Created by<a href="#" target="_blank">The Russ Berge</a>
         </p>
       <?php wp_footer(); ?>
     </div><!-- row -->
